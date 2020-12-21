@@ -1,0 +1,36 @@
+@import 'variables';
+
+.container {
+  overflow: hidden;
+}
+
+body {
+  color: $page-text-color;
+  background-color: $page-bg-color;
+}
+
+//Dark Mode Will Be Soon...
+//@media (prefers-color-scheme: dark) {
+//  body {
+//    color: $page-dark-text-color;
+//    background-color: $page-dark-bg-color;
+//  }
+//}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p, h1, h2, h3, h4, h5 {
+  margin: 0;
+  word-break: break-all;
+}
+
+.stretch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
